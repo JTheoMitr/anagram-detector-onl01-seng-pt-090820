@@ -10,7 +10,7 @@ class Anagram
   end
   
   def match(array)
-    array.select { |string| (string.split("").sort) == (@word.split("").sort) }
+    array.select { |string| (string.split("").sort) == (word.split("").sort) }
   end
   
 end
