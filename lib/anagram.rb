@@ -11,7 +11,7 @@ class Anagram
   
   def match(array)
     
-    array.each { |string| string.split("") }
+    array.select { |string| string.split("") }
     
     
     
